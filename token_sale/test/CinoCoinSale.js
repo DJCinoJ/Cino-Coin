@@ -1,7 +1,6 @@
 var CinoCoin = artifacts.require("./CinoCoin.sol");
 var CinoCoinSale = artifacts.require("./CinoCoinSale.sol");
 
-
 contract('CinoCoinSale', function(accounts) {
   var tokenInstance;
   var tokenSaleInstance;
